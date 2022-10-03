@@ -1,0 +1,100 @@
+body {
+    color:rgb(213, 180, 113);
+    background-color: rgb(16, 16, 16);
+    font-family: 'Roboto', sans-serif;  
+}
+
+h1 {
+    font-size: 2.2vw;
+
+}
+
+h2 {
+    font-size: 1.2vw;
+}
+
+.logoSection{
+    margin:auto;
+    max-width: 400;
+    margin-top: -20px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-top: 70px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    background-color: rgb(16, 16, 16);
+}
+.logoSection div{
+    max-width: 400px;
+    margin: auto;
+    text-align: center; 
+}
+.headerSection{
+    /* margin-header: px; */
+    margin:auto;
+    max-width: 400;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    background-color: rgb(23, 23, 23);
+}
+
+.headerSection div{
+    max-width: 400px;
+    margin: auto;
+    text-align: center; 
+}
+
+.gameSection{
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: rgb(33, 33, 33);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.gameSection div {
+
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 10px
+
+    
+}
+
+footer{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -200px;
+    padding-top: 5px;
+    background-color: rgb(16, 16, 16);
+}
+
+footer div{
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+#groupNames{
+    font-size: 0.83vw;
+}
+
+#rights{
+    font-size: 0.7vw;
+}
+
+#invalid {
+    color: red;
+}
+
+#win {
+    color: rgb(0, 217, 0)
+}
+
+#restart {
+    color:rgb(213, 180, 113);
+}
+

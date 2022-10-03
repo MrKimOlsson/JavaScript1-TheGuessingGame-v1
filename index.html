@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inlämningsuppgift 1 - Guess game</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="logoSection">
+        <div>
+            <img src="img/logo.png" alt="bild av logo">
+        </div>
+    </section>
+    <section class="headerSection">
+        <div>
+            <h1>The Guessing Game</h1>
+
+        </div>
+    </section>
+    <section class="gameSection">
+        <div>
+            <form>
+                <label for="guess">Guess a number between 1 - 100</label><br><br>
+                <input type="text" id="guess" name="guess">
+                <button class="button-guess" type="button" onclick="getInputValue();">Guess!</button>
+            </form>
+            <div>
+            <p id="defaultOutput"></p><p id="yourGuess"></p><p id="invalid"></p><p id="restart"></p>
+            </div>
+            <div>
+            <!-- <p>Number of guesses: </p>-->
+            <p id="defaultCountOutput"></p><p id="guessAmount"></p><p id="win"></p>
+            </div>
+            <button class="restart" type="button" onclick="restartGame();">Restart</button>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <h4>Made by Group-One</h3>
+            <p id="groupNames">Alex, George, Kim, Lotta, Mikael & Ulrika</p>
+            <p id="rights">All rights reserved, except for playing the game!</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
